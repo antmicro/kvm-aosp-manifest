@@ -9,7 +9,7 @@
   <default revision="refs/tags/android-10.0.0_r39"
            remote="aosp"
            sync-j="4" />
-  <project path="build/make" name="android-kvm-aosp-build-make.git" remote="antmicro" revision="kvm-aosp" groups="pdk" >
+  <project path="build/make" name="kvm-aosp-build-make.git" remote="antmicro" revision="kvm-aosp" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -40,7 +40,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/car" name="device/generic/car" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="android-kvm-aosp-device-generic-goldfish.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
+  <project path="device/generic/goldfish" name="kvm-aosp-device-generic-goldfish.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
@@ -234,7 +234,7 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdaemon" name="platform/external/libdaemon" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
-  <project path="external/libdrm" name="android-kvm-aosp-external-libdrm.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
+  <project path="external/libdrm" name="kvm-aosp-external-libdrm.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
@@ -278,7 +278,7 @@
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
-  <project path="external/mesa3d" name="android-kvm-aosp-external-mesa3d.git" remote="antmicro" revision="kvm-aosp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/mesa3d" name="kvm-aosp-external-mesa3d.git" remote="antmicro" revision="kvm-aosp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/Microsoft-GSL" name="platform/external/Microsoft-GSL" groups="pdk" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
@@ -448,7 +448,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
-  <project path="frameworks/av" name="android-kvm-aosp-frameworks-av.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
+  <project path="frameworks/av" name="kvm-aosp-frameworks-av.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -705,7 +705,7 @@
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
-  <project path="system/core" name="android-kvm-aosp-system-core.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
+  <project path="system/core" name="kvm-aosp-system-core.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" />
@@ -725,7 +725,7 @@
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="android-kvm-aosp-system-sepolicy.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
+  <project path="system/sepolicy" name="kvm-aosp-system-sepolicy.git" remote="antmicro" revision="kvm-aosp" groups="pdk" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" />
