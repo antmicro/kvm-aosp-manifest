@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="antmicro"
            fetch="https://github.com/antmicro/" />
-  <default revision="refs/tags/android-10.0.0_r47"
+  <default revision="refs/tags/android-10.0.0_r45"
            remote="aosp"
            sync-j="4" />
   <project path="build/make" name="kvm-aosp-build-make.git" remote="antmicro" revision="kvm-aosp" groups="pdk" >
